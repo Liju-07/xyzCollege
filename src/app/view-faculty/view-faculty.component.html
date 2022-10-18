@@ -1,0 +1,40 @@
+
+<div class="container-fluid">
+    <div class="row">
+        <app-navbar></app-navbar>
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Designation</th>
+                    <th scope="col">Educational Qualifications</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">DOB</th>
+                    <th scope="col">DOJ</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Mobile</th>
+                   
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-warning" *ngFor="let i of data">
+                     
+                     
+                      <td>{{i.Name}}</td>
+                      <td>{{i.Designation}}</td>
+                      <td>{{i.Educational}}</td>
+                      <td>{{i.Department}}</td>
+                      <td>{{i.DOB}}</td>
+                      <td>{{i.DOJ}}</td>
+                      <td>{{i.Address}}</td>
+                      <td>{{i.Mobile}}</td>
+                  
+                      </tr>
+                    </tbody>
+                </table>
+
+
+        </div></div></div>
